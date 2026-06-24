@@ -180,8 +180,18 @@ body {
 .category-card span,
 .product-image {
   display: block;
-  font-size: 54px;
   margin-bottom: 14px;
+}
+
+.category-card span {
+  font-size: 54px;
+}
+
+.product-image {
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .category-card h3,
